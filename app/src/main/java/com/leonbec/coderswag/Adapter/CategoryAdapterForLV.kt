@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.category_list_item.view.*
 /**
  * Created by leonbec on 2017/12/26.
  */
-class CategoryAdapter(val context: Context, val categories: List<Category>) : BaseAdapter() {
+class CategoryAdapterForLV(val context: Context, val categories: List<Category>) : BaseAdapter() {
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val viewHolder: ViewHolder
