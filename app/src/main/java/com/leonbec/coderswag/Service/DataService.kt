@@ -1,7 +1,7 @@
 package com.leonbec.coderswag.Service
 
-import com.example.jonnyb.coderswag.Model.Category
-import com.example.jonnyb.coderswag.Model.Product
+import com.example.leonbec.coderswag.Model.Category
+import com.leonbec.coderswag.Model.Product
 
 /**
  * Created by leonbec on 2017/12/26.
@@ -16,59 +16,59 @@ object DataService {
     )
 
     val hats = listOf(
-            Product("Devslopes Graphic Beanie", "$18", "hat1"),
-            Product("Devslopes Hat Black", "$20", "hat2"),
-            Product("Devslopes Hat White", "$18", "hat3"),
-            Product("Devslopes Hat Snapback", "$22", "hatat1"),
-            Product("Devslopes Hat Black", "$20", "hat2"),
-            Product("Devslopes Hat White", "$18", "hat3"),
-            Product("Devslopes Hat Snapback", "$22", "hatat1"),
-            Product("Devslopes Hat Black", "$20", "hat2"),
-            Product("Devslopes Hat White", "$18", "hat3"),
-            Product("Devslopes Hat Snapback", "$22", "hat4")
+            Product("Devslopes Graphic Beanie", "$18", "hat1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hat Black", "$20", "hat2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hat White", "$18", "hat3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hat Snapback", "$22", "hatat1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hat Black", "$20", "hat2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hat White", "$18", "hat3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hat Snapback", "$22", "hatat1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hat Black", "$20", "hat2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hat White", "$18", "hat3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hat Snapback", "$22", "hat4", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum.")
     )
 
     val hoodies = listOf(
-            Product("Devslopes Hoodie Gray", "$28", "hoodie1"),
-            Product("Devslopes Hoodie Red", "$32", "hoodie2"),
-            Product("Devslopes Gray Hoodie", "$28", "hoodie3"),
-            Product("Devslopes Black Hoodie", "$32", "hoodie1"),
-            Product("Devslopes Hoodie Red", "$32", "hoodie2"),
-            Product("Devslopes Gray Hoodie", "$28", "hoodie3"),
-            Product("Devslopes Black Hoodie", "$32", "hoodie1"),
-            Product("Devslopes Hoodie Red", "$32", "hoodie2"),
-            Product("Devslopes Gray Hoodie", "$28", "hoodie3"),
-            Product("Devslopes Black Hoodie", "$32", "hoodie1"),
-            Product("Devslopes Hoodie Red", "$32", "hoodie2"),
-            Product("Devslopes Gray Hoodie", "$28", "hoodie3"),
-            Product("Devslopes Black Hoodie", "$32", "hoodie1"),
-            Product("Devslopes Hoodie Red", "$32", "hoodie2"),
-            Product("Devslopes Gray Hoodie", "$28", "hoodie3"),
-            Product("Devslopes Black Hoodie", "$32", "hoodie1"),
-            Product("Devslopes Hoodie Red", "$32", "hoodie2"),
-            Product("Devslopes Gray Hoodie", "$28", "hoodie3"),
-            Product("Devslopes Black Hoodie", "$32", "hoodie1"),
-            Product("Devslopes Hoodie Red", "$32", "hoodie2"),
-            Product("Devslopes Gray Hoodie", "$28", "hoodie3"),
-            Product("Devslopes Black Hoodie", "$32", "hoodie4")
+            Product("Devslopes Hoodie Gray", "$28", "hoodie1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hoodie Red", "$32", "hoodie2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Gray Hoodie", "$28", "hoodie3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Black Hoodie", "$32", "hoodie1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hoodie Red", "$32", "hoodie2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Gray Hoodie", "$28", "hoodie3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Black Hoodie", "$32", "hoodie1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hoodie Red", "$32", "hoodie2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Gray Hoodie", "$28", "hoodie3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Black Hoodie", "$32", "hoodie1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hoodie Red", "$32", "hoodie2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Gray Hoodie", "$28", "hoodie3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Black Hoodie", "$32", "hoodie1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hoodie Red", "$32", "hoodie2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Gray Hoodie", "$28", "hoodie3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Black Hoodie", "$32", "hoodie1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hoodie Red", "$32", "hoodie2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Gray Hoodie", "$28", "hoodie3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Black Hoodie", "$32", "hoodie1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hoodie Red", "$32", "hoodie2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Gray Hoodie", "$28", "hoodie3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Black Hoodie", "$32", "hoodie4", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum.")
     )
 
     val shirts = listOf(
-            Product("Devslopes Shirt Black", "$18", "shirt1"),
-            Product("Devslopes Badge Light Gray", "$20", "shirt2"),
-            Product("Devslopes Logo Shirt Red", "$22", "shirt3"),
-            Product("Devslopes Hustle", "$22", "shirt4"),
-            Product("Kickflip Studios", "$18", "shirt5"),
-            Product("Devslopes Shirt Black", "$18", "shirt1"),
-            Product("Devslopes Badge Light Gray", "$20", "shirt2"),
-            Product("Devslopes Logo Shirt Red", "$22", "shirt3"),
-            Product("Devslopes Hustle", "$22", "shirt4"),
-            Product("Kickflip Studios", "$18", "shirt5"),
-            Product("Devslopes Shirt Black", "$18", "shirt1"),
-            Product("Devslopes Badge Light Gray", "$20", "shirt2"),
-            Product("Devslopes Logo Shirt Red", "$22", "shirt3"),
-            Product("Devslopes Hustle", "$22", "shirt4"),
-            Product("Kickflip Studios", "$18", "shirt5")
+            Product("Devslopes Shirt Black", "$18", "shirt1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Badge Light Gray", "$20", "shirt2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Logo Shirt Red", "$22", "shirt3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hustle", "$22", "shirt4", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Kickflip Studios", "$18", "shirt5", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Shirt Black", "$18", "shirt1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Badge Light Gray", "$20", "shirt2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Logo Shirt Red", "$22", "shirt3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hustle", "$22", "shirt4", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Kickflip Studios", "$18", "shirt5", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Shirt Black", "$18", "shirt1", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Badge Light Gray", "$20", "shirt2", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Logo Shirt Red", "$22", "shirt3", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Devslopes Hustle", "$22", "shirt4", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum."),
+            Product("Kickflip Studios", "$18", "shirt5", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nec nisi vitae sem ornare rhoncus id ac orci. Nam tempus odio ac tellus blandit, eget rutrum sem fringilla. Duis est velit, dapibus sed justo nec, porttitor viverra ligula. Fusce iaculis nibh id venenatis condimentum.")
     )
 
     val digitalGoods = listOf<Product>()

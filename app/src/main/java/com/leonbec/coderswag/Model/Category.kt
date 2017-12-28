@@ -1,4 +1,4 @@
-package com.example.jonnyb.coderswag.Model
+package com.example.leonbec.coderswag.Model
 
 /**
  * Created by leonbec on 26/12/17.

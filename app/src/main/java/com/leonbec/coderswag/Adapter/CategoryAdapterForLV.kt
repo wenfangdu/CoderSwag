@@ -7,9 +7,8 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.example.jonnyb.coderswag.Model.Category
+import com.example.leonbec.coderswag.Model.Category
 import com.leonbec.coderswag.R
-import com.leonbec.coderswag.R.id.categoryImage
 import kotlinx.android.synthetic.main.category_list_item.view.*
 
 /**
